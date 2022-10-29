@@ -4,9 +4,20 @@
         <title>Kimchi Fried Rice</title>
         <link rel="stylesheet" href="../bootstrap.min.css">
         <style>
+            * {
+                font-family: Comic Sans MS, Comic Sans, cursive;
+                font-size: larger  ;
+            }
             .foodphoto {
                 width: 100%;
                 
+                
+            }
+            #recipelist {
+                margin-bottom: 1em;
+            }
+            #list {
+                font-size: large;
             }
         </style>
     </head>
@@ -20,15 +31,38 @@
             <div class="row">
                 <div class="col-lg-4 col-12">
                     <div class="text-center">
-                        <img src="Foodphoto/kimchi.jpeg" class="foodphoto img-fluid">
+                        <img src="Foodphoto/kimchi.jpeg" class="foodphoto img-fluid rounded-3" >
                     </div>
                 </div>
                 <div class="col-lg-8 col-12">
-                    <h2>Recipe</h2>
-                    
+                    <h2 id="recipelist"><button type="button" class="btn btn-primary">Recipe</button></h2>
+                    <h3>What you'll need</h3>
+                    <p>
+                        <ul id="list">
+                            <li>Day old rice</li>
+                            <li>Kimchi</li>
+                            <li>Pork Belly</li>
+                            <li>Soy Sauce</li>
+                            <li>Salt & Pepper</li>
+                            <li>Gochujang(고추장)</li>
+                        </ul>
+
+                    </p>
                 </div>
             </div>
-            
+            <div class="row">
+                <div class="text-center">
+                    <h4>Steps</h4>
+                    <div class="col-lg-10">
+                        <p>
+                            <ol>
+                                <li>Heat up the pan with some cooking oil</li>
+                                <li>Fry your pork belly of meat of choice</li>
+                            </ol>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
         <div></div>
     </body>
