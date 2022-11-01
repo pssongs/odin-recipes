@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>Kimchi Fried Rice</title>
-        <link rel="stylesheet" href="../bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
         <style>
             * {
                 font-family: Comic Sans MS, Comic Sans, cursive;
@@ -17,6 +18,9 @@
                 margin-bottom: 1em;
             }
             #list {
+                font-size: large;
+            }
+            #steps {
                 font-size: large;
             }
         </style>
@@ -35,7 +39,7 @@
                     </div>
                 </div>
                 <div class="col-lg-8 col-12">
-                    <h2 id="recipelist"><button type="button" class="btn btn-primary">Recipe</button></h2>
+                    <h2 id="recipelist">Recipe</h2>
                     <h3>What you'll need</h3>
                     <p>
                         <ul id="list">
@@ -51,11 +55,11 @@
                 </div>
             </div>
             <div class="row">
-                <div class="text-center">
-                    <h4>Steps</h4>
+                <div class="text-left">
+                    <h2>Steps</h2>
                     <div class="col-lg-10">
                         <p>
-                            <ol>
+                            <ol id="steps">
                                 <li>Heat up the pan with some cooking oil</li>
                                 <li>Fry your pork belly of meat of choice</li>
                             </ol>

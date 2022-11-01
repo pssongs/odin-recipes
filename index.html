@@ -2,7 +2,8 @@
 <html>
     <head>
         <title>Paul's Recipes</title>
-        <link rel="stylesheet" href="/bootstrap.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <meta charset="utf-8">
         <style>
             #headphoto {
                 padding-top: 1%;
@@ -15,17 +16,21 @@
             }
             .foodcard {
                 padding-bottom: 5%;
+                padding-left: 5%;
+                padding-right: 5%;
             }
             * {
-                font-family:Comic Sans MS, Comic Sans, cursive;
+                font-family:Comic Sans MS, Comic Sans;
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
             }
-
         </style>
+        
     </head>
     
     <body>
-        <script src="/bootstrap.bundle.min.js"></script>
-        <div class="container">
+        <div class="container-fluid p-0" id="container">
             <div class="row">
                 <div class="col-12">
                     <div class="text-center">
@@ -50,7 +55,7 @@
             <div class="row recipeintro">
                 <div class="col-12">
                     <div class="text-center">
-                        <h1 class="SecondFont">Lo and Behold, Paul's famods recipes. So original. So delicious.</h1>
+                        <h1 class="SecondFont">Lo and Behold, Paul's famous recipes. So original. So delicious.</h1>
                     </div>
                 </div>
             </div>
@@ -58,10 +63,10 @@
                 
                 <div class="col-12 col-lg-4" >
                     <div class="card h-100">
-                        <img src="recipes/Foodphoto/kimchi.jpeg" class="cdrd-img-top">
+                        <img src="recipes/Foodphoto/kimchi.jpeg" class="card-img-top">
                         <div class="card-body">
                             <h2 class="text-center"><a href="recipes/kimchi.html"><button class="btn btn-primary">Kimchi Fried Rice</button></a></h2>
-                            <p class="card-text text-center">A fried riceddish originated from South Korea. A dish I grew up on and so very easy to make!</p>
+                            <p class="card-text text-center">A fried rice dish originated from South Korea. A dish I grew up on and so very easy to make!</p>
                         </div>
                         
                     </div>
@@ -72,7 +77,7 @@
                         <img src="recipes/Foodphoto/Shrimp.jpg" class="cadd-img-top">
                         <div class="card-body">
                             <h2 class="text-center"> <a href="recipes/shrimptaco.html"><button class="btn btn-primary">Low Calorie Shrimp Taco</button></a></h2>
-                            <p class="text-center">Feeling hungry on yourddiet? This is one of my favorite meals where I don't feel like I'm cutting!</p>
+                            <p class="text-center">Feeling hungry on your diet? This is one of my favorite meals where I don't feel like I'm cutting!</p>
                         </div>
 
                     </div>
