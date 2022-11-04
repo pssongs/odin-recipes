@@ -1,17 +1,14 @@
-#headphoto {
-    padding-top: 1%;
-    padding-bottom: 2%;
-    height: 350px;
 
-}
-.recipeintro{
+.recipeintro{ 
     padding-top: 5%;
     padding-bottom: 1%;
 }
 .foodcard {
     padding-bottom: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
+
+}
+#indiv-card {
+    padding-bottom: 10px;
 }
 * {
     font-family:Comic Sans MS, Comic Sans;
@@ -30,22 +27,43 @@
     margin-top: 0;
     margin-bottom: 0;
     color: black;
+
 }
 .navbar-brand p span {
     vertical-align: middle;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
-#header-nav {
+#header-nav, #secondnav {
     background-color: beige;
     border-radius: 0;
     border: 0;
+    width: 100%;
 }
-#secondnav{
-    background-color: beige;
-}
+
 #titleheader{
     margin-top: 20px;
 }
 #headertag {
     margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+    .navbar-brand p span {
+        font-size: 3vw;
+    }
+    .navbar-brand h1 {
+        font-size: 5vw;
+    }
+    #headphoto {
+        padding-top: 1%;
+        padding-bottom: 2%;
+        width: 100%;
+        height: auto;
+    }
+}
+@media (min-width:768){
+    #headphoto {
+        padding-top: 1%;
+        padding-bottom: 2%;
+        height: 350px;
+    }
 }
