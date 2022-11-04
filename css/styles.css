@@ -2,6 +2,7 @@
     padding-top: 1%;
     padding-bottom: 2%;
     height: 350px;
+
 }
 .recipeintro{
     padding-top: 5%;
@@ -16,12 +17,11 @@
     font-family:Comic Sans MS, Comic Sans;
     box-sizing: border-box;
 }
-
 #logo-img {
-    background: url("/Logo.png") no-repeat;
+    float: left;
     width: 150px;
     height: 150px;
-    margin: 10px 15px 10px 0px;
+    margin: 10px 15px 0px 0px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
     text-decoration: none;
@@ -34,4 +34,18 @@
 .navbar-brand p span {
     vertical-align: middle;
     font-size: 0.9em;
+}
+#header-nav {
+    background-color: beige;
+    border-radius: 0;
+    border: 0;
+}
+#secondnav{
+    background-color: beige;
+}
+#titleheader{
+    margin-top: 20px;
+}
+#headertag {
+    margin-bottom: 20px;
 }
