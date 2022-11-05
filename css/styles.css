@@ -18,7 +18,7 @@
     float: left;
     width: 150px;
     height: 150px;
-    margin: 10px 15px 0px 0px;
+    margin: 0px 15px 0px 0px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
     text-decoration: none;
@@ -33,7 +33,7 @@
     vertical-align: middle;
     font-size: 0.8em;
 }
-#header-nav, #secondnav {
+#header-nav {
     background-color: beige;
     border-radius: 0;
     border: 0;
@@ -44,7 +44,7 @@
     margin-top: 20px;
 }
 #headertag {
-    margin-bottom: 20px;
+    background-color: beige;
 }
 @media (max-width: 768px) {
     .navbar-brand p span {
@@ -66,4 +66,7 @@
         padding-bottom: 2%;
         height: 350px;
     }
+}
+#nav-list a {
+    text-align: center;
 }
