@@ -18,7 +18,7 @@
     float: left;
     width: 150px;
     height: 150px;
-    margin: 0px 15px 0px 0px;
+    margin: 0px 15px 10px 0px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus{
     text-decoration: none;
@@ -34,7 +34,7 @@
     font-size: 0.8em;
 }
 #header-nav {
-    background-color: beige;
+    background-color: #f5f5dc;
     border-radius: 0;
     border: 0;
     width: 100%;
@@ -44,7 +44,7 @@
     margin-top: 20px;
 }
 #headertag {
-    background-color: beige;
+    background-color: #f5f5dc;
 }
 @media (max-width: 768px) {
     .navbar-brand p span {
@@ -67,6 +67,6 @@
         height: 350px;
     }
 }
-#nav-list a {
+#navbarSupportedContent ul li a {
     text-align: center;
 }
