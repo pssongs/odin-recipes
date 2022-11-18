@@ -1,0 +1,14 @@
+* {
+    font-family: Comic Sans MS, Comic Sans;
+}
+.foodphoto {
+    width: 100%;
+                
+                
+}
+#recipelist {
+    margin-bottom: 1em;
+}
+#list, #steps {
+    font-size: larger;
+}
