@@ -59,6 +59,9 @@
         width: 100%;
         height: auto;
     }
+    #menuitem {
+        margin-left: 60%;
+    }
 }
 @media (min-width:768){
     #headphoto {
@@ -70,9 +73,7 @@
 .nav-link {
     text-align: center;
 }
-#menuitem {
-    margin-left: 60%;
-}
+
 #title {
     margin: 10px 10px;
 }
