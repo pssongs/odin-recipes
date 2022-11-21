@@ -46,6 +46,14 @@
 #headertag {
     background-color: #f5f5dc;
 }
+
+.nav-link {
+    text-align: center;
+}
+
+#title {
+    margin: 10px 10px;
+}
 @media (max-width: 768px) {
     .navbar-brand p span {
         font-size: 3vw;
@@ -59,21 +67,16 @@
         width: 100%;
         height: auto;
     }
-    #menuitem {
-        margin-left: 60%;
-    }
+    
+    
 }
-@media (min-width:768){
+@media (min-width:768px){
     #headphoto {
         padding-top: 1%;
         padding-bottom: 2%;
         height: 350px;
     }
-}
-.nav-link {
-    text-align: center;
-}
-
-#title {
-    margin: 10px 10px;
+    #menuitem {
+        margin-left: 60%;
+    }
 }
