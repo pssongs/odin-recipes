@@ -76,6 +76,8 @@
         padding-bottom: 2%;
         height: 350px;
     }
+}
+@media (min-width:992px){
     #menuitem {
         margin-left: 60%;
     }
